@@ -15,7 +15,7 @@ export async function initModel(model: string) {
   console.log(model);
 
   const vision = await FilesetResolver.forVisionTasks(
-    "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@latest/wasm/"
+    "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@latest/wasm"
   );
   const gestureRecognizer = await GestureRecognizer.createFromOptions(vision, {
     baseOptions: {
