@@ -1,7 +1,6 @@
 import { useId, type Dispatch, type SetStateAction } from "react";
 
 import Select from "./Select";
-import Pad from "./Pad";
 
 interface SidebarProps {
   model: string;
